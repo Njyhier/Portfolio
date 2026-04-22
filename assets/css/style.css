@@ -1297,6 +1297,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .article-title {
     font-weight: var(--fw-600);
     padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   .article-title::after {
@@ -1878,5 +1881,42 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+}
+#tech{
+    color: white;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.tech_item{
+  background-color: white;
+  color: black;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 9999px;
+}
+#tech>ul{
+  display: flex;
+  gap: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.resume{
+  position: relative;
+}
+
+#pdf{
+  font-size: medium;
+  font-weight: lighter;
+  color: white;
+  color: white;
+}
+
+#res{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax());
+ 
 
 }
