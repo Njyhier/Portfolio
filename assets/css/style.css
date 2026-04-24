@@ -2042,7 +2042,9 @@ textarea.form-input::-webkit-resizer {
   background-color: white;
   color: black;
   width: fit-content;
-  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+
   border-radius: 9999px;
 }
 #tech > ul {
@@ -2050,6 +2052,7 @@ textarea.form-input::-webkit-resizer {
   gap: 10px;
   max-width: 100%;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .resume {
