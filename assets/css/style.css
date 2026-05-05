@@ -2061,9 +2061,7 @@ textarea.form-input::-webkit-resizer {
 
 #pdf {
   display: flex;
-  font-size: small;
   font-weight: lighter;
-  color: white;
   color: white;
 }
 
